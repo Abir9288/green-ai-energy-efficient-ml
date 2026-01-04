@@ -43,5 +43,5 @@ Note: Large datasets are stored using Git LFS to ensure repository efficiency.
 
 📊 Accuracy vs Inference Time vs CO2 Emission
 
-![model_diagram.png](attachment:model_diagram.png)
+
 
