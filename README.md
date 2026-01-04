@@ -1,26 +1,38 @@
-\# Green AI: Energy-Efficient Machine Learning for Environmental Monitoring
-
-
-
-This repository contains the datasets, code, and experiments for the thesis  
-
-\*\*“Design and Optimization of Energy-Efficient Artificial Intelligence Models for Environmental Monitoring.”\*\*
-
-
-
-The project evaluates energy-aware AI techniques such as \*\*model pruning, quantization, and knowledge distillation\*\*
-
-applied to environmental datasets (air quality and weather), with a focus on \*\*accuracy, inference latency, and CO₂ emissions\*\*.
-
-
-
----
-
-
-
-\## Project Structure
+🌱 Green AI: Energy-Efficient Machine Learning for Air Quality
 
 
 
 
 
+
+This project uses energy-efficient machine learning (Green AI) to predict air quality using global weather and pollution datasets. It includes processed datasets, Python scripts, and Jupyter notebooks for data preparation, feature engineering, model training, and evaluation.
+
+📁 What's in this project?
+
+data/processed/features_final.csv → main processed dataset (tracked with Git LFS)
+
+notebooks/data_preparation.ipynb → data cleaning and preprocessing steps
+
+notebooks/model_training.ipynb → training Random Forest, Logistic Regression, and other ML models
+
+notebooks/evaluation.ipynb → evaluation of model accuracy, F1-score, and CO₂ emission tracking
+
+.gitignore → files/folders ignored by Git
+
+requirements.txt → Python dependencies
+
+README.md → this file
+
+submissionReadyThesis.docx → full thesis report
+
+📊 Dataset & Feature Overview
+
+The dataset contains global air quality and weather data, including:
+
+Temperature, humidity, wind speed, etc.
+
+Air Quality US EPA Index (target variable)
+
+Engineered features for machine learning models
+
+Note: Large datasets are stored using Git LFS to ensure repository efficiency.
