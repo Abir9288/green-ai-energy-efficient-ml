@@ -36,3 +36,8 @@ Air Quality US EPA Index (target variable)
 Engineered features for machine learning models
 
 Note: Large datasets are stored using Git LFS to ensure repository efficiency.
+
+📊 ModelPerformance: Accuracy and Macro F1
+
+<img width="989" height="790" alt="image" src="https://github.com/user-attachments/assets/a5008398-095d-4188-814a-9a8ed720b3b3" />
+
